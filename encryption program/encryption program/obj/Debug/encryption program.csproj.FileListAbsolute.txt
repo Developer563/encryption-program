@@ -1,0 +1,11 @@
+C:\Users\Mikołaj\Desktop\encryption program\encryption program\encryption program\bin\Debug\encryption program.exe.config
+C:\Users\Mikołaj\Desktop\encryption program\encryption program\encryption program\bin\Debug\encryption program.exe
+C:\Users\Mikołaj\Desktop\encryption program\encryption program\encryption program\bin\Debug\encryption program.pdb
+C:\Users\Mikołaj\Desktop\encryption program\encryption program\encryption program\obj\Debug\encryption program.csproj.AssemblyReference.cache
+C:\Users\Mikołaj\Desktop\encryption program\encryption program\encryption program\obj\Debug\encryption program.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mikołaj\Desktop\encryption program\encryption program\encryption program\obj\Debug\encryption_program.Form1.resources
+C:\Users\Mikołaj\Desktop\encryption program\encryption program\encryption program\obj\Debug\encryption_program.Properties.Resources.resources
+C:\Users\Mikołaj\Desktop\encryption program\encryption program\encryption program\obj\Debug\encryption program.csproj.GenerateResource.cache
+C:\Users\Mikołaj\Desktop\encryption program\encryption program\encryption program\obj\Debug\encryption program.csproj.CoreCompileInputs.cache
+C:\Users\Mikołaj\Desktop\encryption program\encryption program\encryption program\obj\Debug\encryption program.exe
+C:\Users\Mikołaj\Desktop\encryption program\encryption program\encryption program\obj\Debug\encryption program.pdb

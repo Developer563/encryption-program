@@ -16,5 +16,25 @@ namespace encryption_program
         {
             InitializeComponent();
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void encryptToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void decryptToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void settingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
