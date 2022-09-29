@@ -37,12 +37,12 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.encoriginaltxt = new System.Windows.Forms.RichTextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.encencytxt = new System.Windows.Forms.RichTextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
@@ -79,12 +79,12 @@
             // 
             this.tabPage2.Controls.Add(this.label5);
             this.tabPage2.Controls.Add(this.label4);
-            this.tabPage2.Controls.Add(this.richTextBox2);
+            this.tabPage2.Controls.Add(this.encencytxt);
             this.tabPage2.Controls.Add(this.button1);
             this.tabPage2.Controls.Add(this.label3);
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Controls.Add(this.textBox1);
-            this.tabPage2.Controls.Add(this.richTextBox1);
+            this.tabPage2.Controls.Add(this.encoriginaltxt);
             this.tabPage2.Controls.Add(this.textBox3);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
@@ -111,7 +111,7 @@
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(792, 423);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "setting";
+            this.tabPage4.Text = "settings";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
@@ -142,13 +142,13 @@
             this.textBox3.Size = new System.Drawing.Size(208, 22);
             this.textBox3.TabIndex = 2;
             // 
-            // richTextBox1
+            // encoriginaltxt
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(127, 24);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(208, 106);
-            this.richTextBox1.TabIndex = 3;
-            this.richTextBox1.Text = "";
+            this.encoriginaltxt.Location = new System.Drawing.Point(127, 24);
+            this.encoriginaltxt.Name = "encoriginaltxt";
+            this.encoriginaltxt.Size = new System.Drawing.Size(208, 106);
+            this.encoriginaltxt.TabIndex = 3;
+            this.encoriginaltxt.Text = "";
             // 
             // textBox1
             // 
@@ -174,12 +174,13 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(110, 35);
             this.label3.TabIndex = 6;
-            this.label3.Text = "key";
+            this.label3.Text = "IV";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(326, 302);
+            this.button1.Location = new System.Drawing.Point(339, 301);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 41);
             this.button1.TabIndex = 7;
@@ -187,13 +188,13 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // richTextBox2
+            // encencytxt
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(443, 24);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(208, 106);
-            this.richTextBox2.TabIndex = 8;
-            this.richTextBox2.Text = "";
+            this.encencytxt.Location = new System.Drawing.Point(443, 24);
+            this.encencytxt.Name = "encencytxt";
+            this.encencytxt.Size = new System.Drawing.Size(208, 106);
+            this.encencytxt.TabIndex = 8;
+            this.encencytxt.Text = "";
             // 
             // label4
             // 
@@ -222,8 +223,11 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(818, 497);
+            this.MinimumSize = new System.Drawing.Size(818, 497);
             this.Name = "Form1";
             this.Text = "encryption program";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
@@ -244,11 +248,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox encoriginaltxt;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox encencytxt;
         private System.Windows.Forms.Button button1;
     }
 }
